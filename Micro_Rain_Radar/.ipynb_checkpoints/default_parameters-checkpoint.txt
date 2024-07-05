@@ -1,0 +1,19 @@
+#Input data path	=	/home/claudio/Postdoc/Datasets/APRES3/MRR/MRR2/RawSpectra/201901/
+#Output data path	=	/home/claudio/Postdoc/Datasets/APRES3/MRR/MRR2/MK_processed/201901/
+#MODE (SingleFolder: 1, SubFolders: 2, MergingFiles: 3, netCDF2ASCII: 4)	=	1
+#output temporal resolution in seconds	=	60
+#Short name of the station	=	DDU
+#Radome attenuation correction (k to x band) (True or False)	=	False
+##Radome attenuation (k to x band), a slope (dBZ) 	=	0.99
+##Radome attenuation (k to x band), b intercept (dBZ) 	=	6.14
+#Snowfall rate conversion (Z-S)  (True or False) 	=	True
+##Z-S relationship, A parameter (constant) 	=	76.0
+##Z-S relationship, B parameter (exponent) 	=	0.91
+#Make quicklook (True or False)	=	True
+#Overwrite (True or False)	=	False
+#PREFIX for output files (Only for merged files)	=	APRES3
+#SUFIX for output files	=	MRR2 
+#Remove previous/next day profiles (before/after OO/24h) (True or False) 	=	False
+#Select All variables. (If False, only "Ze", "W", "specWidth" and "SnowfalRate" are selected)  (True or False) 	=	True
+
+

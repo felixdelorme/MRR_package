@@ -1,0 +1,19 @@
+#Input data path	=	/Users/felixdelorme/ESISAR/Stage/stage_felix_2024_MRR_Bolivie/MK_packaged_v2/Data/PYRAMIDE/202406/
+#Output data path	=	/Users/felixdelorme/ESISAR/Stage/stage_felix_2024_MRR_Bolivie/MK_packaged_v2/MK_processed/PYRAMIDE/202406/
+#MODE (SingleFolder: 1, SubFolders: 2, MergingFiles: 3, netCDF2ASCII: 4)	=	1
+#output temporal resolution in seconds	=	60
+#Short name of the station	=	PLATAFORMA
+#Radome attenuation correction (k to x band) (True or False)	=	False
+##Radome attenuation (k to x band), a slope (dBZ) 	=	0.99
+##Radome attenuation (k to x band), b intercept (dBZ) 	=	6.14
+#Snowfall rate conversion (Z-S)  (True or False) 	=	False
+##Z-S relationship, A parameter (constant) 	=	76.0
+##Z-S relationship, B parameter (exponent) 	=	0.91
+#Make quicklook (True or False)	=	True
+#Overwrite (True or False)	=	True
+#PREFIX for output files (Only for merged files)	=	MRR2
+#SUFIX for output files	=	PLATAFORMA
+#Remove previous/next day profiles (before/after OO/24h) (True or False) 	=	True
+#Select All variables. (If False, only "Ze", "W", "specWidth" and "SnowfalRate" are selected)  (True or False) 	=	True
+
+
